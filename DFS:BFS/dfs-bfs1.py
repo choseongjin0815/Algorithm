@@ -1,3 +1,4 @@
+from collections import deque
 #세로 길이 N, 가로 길이 M
 n, m = map(int, input().split())
 
@@ -19,7 +20,8 @@ def dfs(y,x) :
         dfs(y,x+1)
         return True
     return False   
-
+    
+    
 
 result = 0
 
