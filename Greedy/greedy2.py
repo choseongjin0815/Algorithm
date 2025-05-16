@@ -8,5 +8,5 @@ for i in range(n) :
     lst.append(list(map(int, input().split()))) 
     row_min.append(min(lst[i]))
 
-#가장 큰 값을 출력
+#리스트 중에 가장 큰 값을 출력
 print(max(row_min))
