@@ -11,7 +11,7 @@ public class BOJ_25305 {
             arr[i] = sc.nextInt();
         }
         Arrays.sort(arr);
-//        System.out.println(arr[0]+" " +arr[1]+" "+arr[2]+" "+arr[3]+" "+arr[4]);
+
         System.out.println(arr[N-K]);
     }
 }
