@@ -12,6 +12,7 @@ public class BOJ_25305 {
         }
         Arrays.sort(arr);
 
+
         System.out.println(arr[N-K]);
     }
 }
